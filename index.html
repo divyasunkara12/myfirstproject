@@ -1,8 +1,42 @@
+<!Doctype html>
 <html>
 	<head>
 		<title>my first project</title>
-	</head
+		<link rel="stylesheet" href="style.css">
+	</head>
 	<body>
-		<h1 style="color:blue">This is my first project</h1>
-	</body>
-</html>
+		<center>
+		<h1>This is my first project</h1>
+		<form action="/action_page.php">
+
+		<label for="fname">Full name:</label>
+		<input type="text" id="fname" name="fname" placeholder="Enter your first name"><br><br>
+		<label for="pwd">Secretpin:</label>
+		<input type="password" id="pwd" name="pwd" placeholder="Enter your secretpin"><br><br>
+		<label for="gender">Gender:</label>
+		<input type="radio" id="gender" name="gender" value="MALE">
+		<label for="gender">MALE</label>
+	<input type="radio" id="gender" name="gender" value="FEMALE">
+	<label for="gender">FEMALE</label><br><br>
+	<label for="expert">I am expert in: </label>
+	 <input type="checkbox" id="fav_language1" name="fav_language1" value="HTML">
+	 <label for="fav_language1">HTML</label>
+	 <input type="checkbox" id="fav_language2" name="fav_language2" value="CSS">
+	 <label for="fav_language2">CSS</label><br><br>
+	 <label for="study">My field of study is:  </label>
+	 <select id="study" name="field of study">
+		 <option value="science">science</option>
+		 <option value="commerce">commerce</option>
+                 <option value="arts">arts</option>
+                 <option value="engineering">engineering</option>
+	 </select><br><br>
+	 <label for="insert">Tell more about yourself</label><br><br>
+
+	 <textarea name="message" rows="10" cols="35" placeholder="Type your message here...."></textarea><br><br>
+	 <button id="fname">Submit Form</button>
+
+		</form></center></body></html>
+	
+	
+
+
