@@ -1,0 +1,37 @@
+body{
+	background-color:lightgrey;
+}
+h1{
+	color:green;
+	display:inline-block;
+}
+label{
+	font-weight:bold;
+}
+
+input[type=text]{
+	border:1px solid green;
+	border-radius:4px;
+	padding:8px 20px;
+}
+input[type=password]{
+        border:1px solid green;
+        border-radius:4px;
+        padding:8px 20px;
+}
+        
+
+input[type=textarea]{
+        border-color:1px solid green;
+}
+button {
+	  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
+
+
+
